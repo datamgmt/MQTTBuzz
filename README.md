@@ -31,7 +31,7 @@ curl -sSL https://raw.githubusercontent.com/datamgmt/MQTTBuzz/main/utilities/qui
 
 For further details see:
 
- *  [Use Case Discussion](https://github.com/datamgmt/MQTTBuzz/blob/main/Use Case.md)
+ *  [Use Case Discussion](https://github.com/datamgmt/MQTTBuzz/blob/main/UseCase.md)
  *  [Development & Packaging](https://github.com/datamgmt/MQTTBuzz/blob/main/Development.md)
  *  [Configuration](https://github.com/datamgmt/MQTTBuzz/blob/main/Configuration.md)
  *  [Using MQTT](https://github.com/datamgmt/MQTTBuzz/blob/main/Using.md)
