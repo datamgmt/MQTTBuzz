@@ -23,7 +23,7 @@ For further details on configuring please see: [GitHub](https://github.com/datam
 
 For further details see:
 
- *  [Development & Packaging](https://github.com/datamgmt/MQTTBuzz/Development.md)
- *  [Configuration](https://github.com/datamgmt/MQTTBuzz/Configuration.md)
- *  [Using MQTT](https://github.com/datamgmt/MQTTBuzz/Using.md)
- *  [Acknowledgements](https://github.com/datamgmt/MQTTBuzz/Acknowledgements.md)
+ *  [Development & Packaging](https://github.com/datamgmt/MQTTBuzz/blob/main/Development.md)
+ *  [Configuration](https://github.com/datamgmt/MQTTBuzz/blob/main/Configuration.md)
+ *  [Using MQTT](https://github.com/datamgmt/MQTTBuzz/blob/main/Using.md)
+ *  [Acknowledgements](https://github.com/datamgmt/MQTTBuzz/blob/main/Acknowledgements.md)
