@@ -25,7 +25,7 @@ For further details on configuring please see: [GitHub](https://github.com/datam
 
 If you just want to get the app downloaded buiold and running then you can run this command:
 ```
-curl -sS https://raw.githubusercontent.com/datamgmt/MQTTBuzz/main/utilities/quickstart | bash
+curl -sSL https://raw.githubusercontent.com/datamgmt/MQTTBuzz/main/utilities/quickstart | bash
 ```
 ** NOTE: You should satisfy yourself that it is safe to download and run this and any other script directly from the internet **
 
