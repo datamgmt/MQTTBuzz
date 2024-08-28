@@ -64,12 +64,9 @@ One there
 ```
 # Build the application
 python setup.py py2app
-
-# Copy the application to the application directory (optional)
-cp dist/MQTTBuzz.app /Applications
 ```
 
-This message can be safely ignored:
+# This message can be safely ignored:
 ```
 !!
 
@@ -80,3 +77,5 @@ This message can be safely ignored:
 
 !!
 ```
+
+The Application can then be copied from the MQTTBuzz/dist directory to the Applications folder in Finder
