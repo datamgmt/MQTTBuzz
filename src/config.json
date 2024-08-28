@@ -1,0 +1,19 @@
+{
+    "mqtt_servers": [
+        {
+            "mqtt_broker": "broker1_address",
+            "mqtt_port": 1883,
+            "mqtt_topic": "topic1",
+            "username": "your_username",
+            "password": "your_password",
+            "header": "Your header",
+            "subheader": "Your Subheader",
+            "broker_enabled": true,
+            "sounds_enabled": true,
+            "filter": "none",
+            "filter_time": 0
+        }
+    ],
+    "sounds_enabled": true,
+    "max_message_length": 256
+}
