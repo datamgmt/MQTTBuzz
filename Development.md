@@ -36,6 +36,9 @@ pip install --upgrade pip
 
 # Install and/or upgrade the required libraries
 pip install --upgrade paho-mqtt py2app rumps
+
+# Install a specific version of setuptools to overcome a bug in the current release
+pip install setuptools==70.3.0
 ```
 
 ## Running the application
