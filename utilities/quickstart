@@ -1,0 +1,68 @@
+#!/bin/bash
+
+# Function error_check standardises error output
+
+LOGFILE="`pwd`/quickstart.log"
+
+error_check() {
+ 
+   RETURN=$1
+   if [ ${RETURN} -gt 0 ]
+   then
+      echo ""
+      echo "MQTTBuzz quickstart had an error"
+      echo ""
+      echo "Please check the messages and retry"
+      echo ""
+      exit 1
+   fi
+}
+
+echo "MQTTBuzz quickstart"
+echo ""
+
+echo "" >${LOGFILE}
+
+echo "Get the source code from GitHub"
+git clone https://github.com/datamgmt/MQTTBuzz
+error_check $?
+
+echo "Create a Python virtual environment"
+python -m venv MQTTBuzz
+error_check $?
+
+echo "Activating the virtual environment"
+source MQTTBuzz/bin/activate
+error_check $?
+
+echo "Changing directory to MQTTBuzz"
+cd MQTTBuzz
+error_check $?
+
+echo "Making sure the Python environment is up to date"
+pip install --upgrade pip
+error_check $?
+
+echo "Installng and/or upgrading the required libraries"
+pip install --upgrade paho-mqtt py2app rumps
+error_check $?
+
+echo "Install a specific version of setuptools to overcome a bug in the current release"
+pip install setuptools==70.3.0
+error_check $?
+
+echo "Building the application"
+python setup.py py2app 
+error_check $?
+
+FILE="`pwd`/dist/MQTTBuzz.app"
+if [ -d "${FILE}" ]
+then
+   echo "Build complete"
+   echo ""
+   echo "Please move ${FILE} to /Applications"
+   echo "then run the application (doube-click) and configure the feeds in the app settings"
+   echo ""
+else
+   error_check 1
+fi
