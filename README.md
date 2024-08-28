@@ -21,6 +21,14 @@ Getting Started
 
 For further details on configuring please see: [GitHub](https://github.com/datamgmt/MQTTBuzz)
 
+## Quickstart install
+
+If you just want to get the app downloaded buiold and running then you can run this command:
+```
+curl -sS https://raw.githubusercontent.com/datamgmt/MQTTBuzz/main/utilities/quickstart | bash
+```
+** NOTE: You should satisfy yourself that it is safe to download and run this and any other script directly from the internet **
+
 For further details see:
 
  *  [Development & Packaging](https://github.com/datamgmt/MQTTBuzz/blob/main/Development.md)
