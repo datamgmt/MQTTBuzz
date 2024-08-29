@@ -5,7 +5,7 @@ MQTTBuzz is useful for publishing notifications from anthing that emits messages
 A typical workflow is outlined in this diagram
 
 ```mermaid
-raph LR
+graph LR
     subgraph iot [IoT Devices]
        device1[Device 1]
        device2[Device 2]
