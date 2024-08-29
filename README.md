@@ -23,12 +23,11 @@ For further details on configuring please see: [GitHub](https://github.com/datam
 
 ## Quickstart install
 
-If you just want to get the app downloaded buiold and running then you can run this command:
+If you just want to get the app downloaded built and running then you can run this command:
 ```
 curl -sSL https://raw.githubusercontent.com/datamgmt/MQTTBuzz/main/utilities/quickstart | bash
 ```
-**NOTE: 
-You should satisfy yourself that it is safe to download and run this and any other script directly from the internet.**
+**NOTE: You should satisfy yourself that it is safe to download and run this and any other script directly from the internet.**
 
 For further details see:
 
